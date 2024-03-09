@@ -8,8 +8,8 @@
       class="flex items-center justify-between w-full px-6 mx-auto"
     >
       <div :class="route.fullPath === '/' ? 'w-[80%]' : 'lg:w-[20%] w-[70%]'">
-        <NuxtLink to="/">
-          <img width="115" src="~/assets/images/tiktok-logo.png" />
+        <NuxtLink to="/" class="shrink-0">
+          <img width="115px" src="~/assets/images/tiktok-logo.png" />
         </NuxtLink>
       </div>
       <div
@@ -57,7 +57,7 @@
           <div class="relative">
             <button class="mt-1" @click="showMenu = !showMenu">
               <img
-                class="rounded-full"
+                class="rounded-full shrink-0"
                 width="33"
                 src="https://picsum.photos/id/83/300/320"
               />
